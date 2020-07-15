@@ -9,7 +9,8 @@ import './App.css';
 //import FunctionClick from './components/FunctionClick'
 // import EventBind from './components/EventBind'
 // import UserGreeting from './components/UserGreeting'
-import UserGreeting from './components/UserGreeting'
+// import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList'
 
 
 class App extends Component {
@@ -17,7 +18,10 @@ class App extends Component {
     return (
     <div className="App">
 
-        <UserGreeting />
+
+        <NameList />
+
+        {/* <UserGreeting /> */}
 
        {/* <Counter />*/}
 
