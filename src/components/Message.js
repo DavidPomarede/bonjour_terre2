@@ -10,7 +10,7 @@ class Message extends Component {
     }
 
     changeMessage() {
-        if (this.state.message == 'Click to Subscribe'){
+        if (this.state.message === 'Click to Subscribe'){
             this.setState({
                 message:"Thank you for Subscribing!"
             })
