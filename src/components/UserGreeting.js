@@ -11,16 +11,34 @@ class UserGreeting extends Component {
 
     render() {
 
-        let message
+        // SHORT CIRCUIT OPERATOR:
 
-        if (this.state.isLoggedIn) {
-            message = <div>Welcome David</div>
-        } else {
-            message = <div>Welcome Guest</div>
-        }
+        return this.state.isLoggedIn && <div>Welcome David</div>
+
+        // TERTIARY OPERATOR:
+
+        // return this.state.isLoggedIn ? (
+        //     <div>Welcome David</div>
+        // ) : (
+        //     <div>Welcome Guest</div>
+        // )
+
+        // do it in JS, or better yet use TERTIARY and SHORT CIRCUIT OPERATORS
+        // BELOW ARE OTHER DEMO METHODS, TRY TO AVOID THEM, 
+        // (BUT ESPECIALLY TRY TO AVOID DOING LOGIC IN JSX!!) :
 
 
-        return <div>{message}</div>
+        // let message
+        // if (this.state.isLoggedIn) {
+        //     message = <div>Welcome David</div>
+        // } else {
+        //     message = <div>Welcome Guest</div>
+        // }
+        // return <div>{message}</div>
+
+
+            // DON'T DO IF/ELSE IN JSX:
+
         // if(this.state.isLoggedIn) {
         //     return <div>Welcome David</div>
         // } else {
