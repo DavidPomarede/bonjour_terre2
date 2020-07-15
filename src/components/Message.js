@@ -5,14 +5,21 @@ class Message extends Component {
     constructor() {
         super()
         this.state = {
-            message: 'Hello'
+            message: 'Click to Subscribe'
         }
     }
 
     changeMessage() {
-        this.setState({
-            message:"Thank you for Subscribing!"
-        })
+        if (this.state.message == 'Click to Subscribe'){
+            this.setState({
+                message:"Thank you for Subscribing!"
+            })
+        } else {
+            this.setState({
+                message:"Click to Subscribe"
+            })
+        }
+
     }
 
     render () {
