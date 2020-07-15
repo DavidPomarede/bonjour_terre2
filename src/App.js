@@ -8,7 +8,8 @@ import './App.css';
 // import Counter from './components/Counter'
 //import FunctionClick from './components/FunctionClick'
 // import EventBind from './components/EventBind'
-import ParentComponent from './components/ParentComponent'
+// import UserGreeting from './components/UserGreeting'
+import UserGreeting from './components/UserGreeting'
 
 
 class App extends Component {
@@ -16,9 +17,11 @@ class App extends Component {
     return (
     <div className="App">
 
+        <UserGreeting />
+
        {/* <Counter />*/}
 
-      <ParentComponent />
+      {/* <UserGreeting /> */}
       {/* <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
       </Greet>
