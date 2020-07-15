@@ -18,5 +18,6 @@ class ClassClick extends Component {
 // 1)  invoke the function while declaring
 // 2)  RENDER the RETURN
 // 3)  during onClick event, name 'this' function, (add 'THIS')...
+// 4)  call function during even using curly braces
 
 export default ClassClick
