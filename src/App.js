@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 
 class App extends Component {
@@ -19,8 +20,9 @@ class App extends Component {
       <Greet name="Diana" heroName="Wonder Woman">
       
       </Greet>
-      <Welcome name="Bruce II" heroName="Batman II" />
 
+      <Welcome name="Bruce II" heroName="Batman II" />
+      <Message />
 
     </div>
     );
