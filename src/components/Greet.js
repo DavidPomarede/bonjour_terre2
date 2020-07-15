@@ -4,9 +4,24 @@ import React from 'react'
 //    return <h1>Hello David</h1>;
 //}
 
-export const Greet = () => <h1> Hello David </h1>
+//export const Greet = () => <h1> Hello David </h1>
 
 // this is a "named export" versus below, a "default export"
 
 
-//export default Greet
+
+const Greet = props => {
+console.log(props)
+return (
+    <div>
+        <h1>
+            Hello {props.name} a.k.a. {props.heroName}
+        </h1>
+        {props.children}
+    </div>
+)
+
+}
+
+
+export default Greet
