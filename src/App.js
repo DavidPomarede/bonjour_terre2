@@ -7,7 +7,9 @@ import './App.css';
 //import Message from './components/Message'
 // import Counter from './components/Counter'
 //import FunctionClick from './components/FunctionClick'
-import EventBind from './components/EventBind'
+// import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
+
 
 class App extends Component {
   render() {
@@ -16,7 +18,7 @@ class App extends Component {
 
        {/* <Counter />*/}
 
-      <EventBind />
+      <ParentComponent />
       {/* <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
       </Greet>
