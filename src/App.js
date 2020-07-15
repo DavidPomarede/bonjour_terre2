@@ -11,7 +11,7 @@ import './App.css';
 // import UserGreeting from './components/UserGreeting'
 // import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
-
+// import PersonList from './components/PersonList'
 
 class App extends Component {
   render() {
