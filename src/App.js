@@ -13,15 +13,19 @@ import './App.css';
 // import NameList from './components/NameList'
 // import PersonList from './components/PersonList'
 // import Form from './components/Form'
-import Stylesheets from './components/Stylesheets'
+// import Stylesheets from './components/Stylesheets'
+import Inline from './components/Inline'
+
+
 
 class App extends Component {
   render() {
     return (
     <div className="App">
 
+        <Inline />
 
-        <Stylesheets primary={true} />
+        {/* <Stylesheets primary={true} /> */}
 
         {/* <UserGreeting /> */}
 
