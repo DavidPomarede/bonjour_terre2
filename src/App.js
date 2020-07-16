@@ -21,7 +21,7 @@ class App extends Component {
     <div className="App">
 
 
-        <Stylesheets />
+        <Stylesheets primary={true} />
 
         {/* <UserGreeting /> */}
 
