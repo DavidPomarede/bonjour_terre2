@@ -10,8 +10,10 @@ import './App.css';
 // import EventBind from './components/EventBind'
 // import UserGreeting from './components/UserGreeting'
 // import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
+// import NameList from './components/NameList'
 // import PersonList from './components/PersonList'
+import Form from './components/Form'
+
 
 class App extends Component {
   render() {
@@ -19,7 +21,7 @@ class App extends Component {
     <div className="App">
 
 
-        <NameList />
+        <Form />
 
         {/* <UserGreeting /> */}
 
