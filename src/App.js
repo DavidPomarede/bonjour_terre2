@@ -12,8 +12,8 @@ import './App.css';
 // import UserGreeting from './components/UserGreeting'
 // import NameList from './components/NameList'
 // import PersonList from './components/PersonList'
-import Form from './components/Form'
-
+// import Form from './components/Form'
+import Stylesheets from './components/Stylesheets'
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
     <div className="App">
 
 
-        <Form />
+        <Stylesheets />
 
         {/* <UserGreeting /> */}
 
